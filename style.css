@@ -1,0 +1,60 @@
+#top{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+
+}
+#infoA{
+    right:0px;
+    width: 33%;
+    height: 70px;
+    border:slategrey 1px solid;
+}
+#infoB{
+    left:0px;
+    width: 33%;
+    height: 70px;
+    border:slategrey 1px solid;
+}
+#infoC{
+    right:0px;
+    width: 33%;
+    height: 70px;
+    border:slategrey 1px solid;
+}
+#color{
+    border: 3px solid slategrey;
+    margin: 0 auto 0 auto;
+}
+#scale{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    margin: 10px auto 0 auto;
+
+  }
+  .scaleBtn{
+    
+    width: 70px;
+height: 70px;
+line-height: 50px;
+text-align: center;
+display: block;
+background-color: rgb(255, 255, 255);
+border: solid 1px #666;
+border-radius: 5px;
+border-bottom: 4px solid #666;
+color: rgb(59, 59, 59);
+margin: 0 auto;
+background-image :  url(8beat.png);
+background-size: contain;
+cursor: pointer;
+    
+  }
+
+  #graphcanvas{
+      margin: 0 auto 0 auto;
+      background-color: black;
+      
+  }
+  
